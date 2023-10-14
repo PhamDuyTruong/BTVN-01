@@ -1,0 +1,45 @@
+.game {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-info {
+  margin-left: 40px;
+}
+
+.list {
+  margin-top: 20px;
+}
+
+.button-sort {
+  border: 1px solid #5cd2e6;
+  background: white;
+  padding: 6px 8px;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.button-sort:hover {
+  border: 1px solid white;
+  background: #5cd2e6;
+  color: white;
+  transition: all 0.5s;
+}
+
+.history-btn {
+  border: 1px solid #e9b824;
+  background: white;
+  padding: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.history-btn:hover {
+  border: 1px solid white;
+  background: #e9b824;
+  color: white;
+  transition: all 0.5s;
+}
